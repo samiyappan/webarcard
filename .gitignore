@@ -10,6 +10,13 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
+
+# Ignore all build folders EXCEPT the WebGL build
+/[Bb]uild/
+/[Bb]uilds/
+!Build/WebGLBuild/
+!Build/WebGLBuild/**
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
